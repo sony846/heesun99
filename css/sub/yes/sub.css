@@ -1,0 +1,359 @@
+@charset "utf-8";
+
+/*컨테이너시작*/
+#container{
+    width:100%;
+}
+
+/*메인슬라이더시작*/
+.subSlider{
+    width:100%;
+    height:589px;
+    overflow:hidden;
+    position:relative;
+}
+.subSlider img.subSliderImg{
+    width:100%;
+}
+
+/*슬라이더텍스트시작*/
+.sliderText{
+    position:absolute;
+    top:100px;
+    left:200px;
+}
+.sliderText img.sliderText{}
+.sliderText p.sliderTextP{
+    font-size:45px;
+    font-weight:200;
+}
+.sliderText p.sliderTextP:before{
+    content:"";
+    display:block;
+    width:13px;
+    height:2px;
+    background:#2c2c2c;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.sliderText p.sliderTextP span{
+    color:#ff0000;
+}
+.sliderText span.sliderTextColor{
+    font-size:30px;
+    color:#413c36;
+}
+.sliderBtn{
+    display:block;
+    font-size:18px;
+    width:260px;
+    height:50px;
+    text-align:center;
+    line-height:48px;
+    margin-top:25px;
+}
+.sliderBtn a{
+    width:260px;
+    height:50px;
+    border:1px solid rgba(0,0,0,0.3);
+    color:#413c36;
+    display:block;
+    font-weight:400;
+}
+.sliderBtn a:hover{
+    color:#2c2c2c;
+    background:rgba(0,0,0,0.1);
+    border:none;
+}
+
+/*선택창시작*/
+.yesOrNo{
+    text-align:center;
+    font-size:0;
+    padding-top:60px;
+    padding-bottom:20px;
+}
+.yesOrNo li{
+    display:inline-block;
+    margin-right:150px;
+}
+.yesOrNo li.margin{
+    margin-right:0;
+}
+.yesOrNo li.margin a{
+    color:#2c2c2c;
+}
+.yesOrNo li a{
+    font-size:30px;
+    color:#ff0000;
+}
+
+
+/*mainRow1시작*/
+.mainRow1{
+    padding:40px 0;
+}
+.mainRow1 h2{
+    font-size:60px;
+    color:#000;
+    position:relative;
+    margin-left:45px;
+    padding-top:40px;
+}
+.mainRow1 img.yesBackground{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.mainRow1 p{
+    margin-left:45px;
+    font-size:20px;
+    font-weight:300;
+    margin-bottom:20px;
+}
+.mainRow1 p.subTitle{
+    font-size:30px;
+    font-weight:300;
+    margin-top:10px;
+    margin-bottom:0;
+}
+.mainRow1 p.subTitle:after{
+    content:"";
+    display:block;
+    width:33px;
+    height:2px;
+    background:#000;
+    margin-top:100px;
+    margin-bottom:30px;
+}
+.mainRow1 span{
+    font-size:20px;
+    font-weight:300;
+}
+.mainRow1 span a{
+    width:274px;
+    height:57px;
+    border:1px solid rgba(0,0,0,0.6);
+    color:#2c2c2c;
+    display:block;
+    margin-left:45px;
+    line-height:57px;
+    text-align:center;
+}
+.mainRow1 span a:hover{
+    background:rgba(0,0,0,0.1);
+    border:none;
+}
+.mainRow1 span a img{}
+
+/*mainRow2시작*/
+.mainRow2{
+    position:relative;
+    padding-bottom:150px;
+    padding-top:200px;
+}
+.mainRow2Background{
+    background:#f1f1f1;
+}
+.mainRow2 img{
+    position:absolute;
+    top:-420px;
+    right:0;
+}
+.row2Box1{}
+.row2Box1 li{
+    width:700px;
+}
+.row2Box1 li.row2Title{
+    font-size:35px;
+    margin-bottom:80px;
+    padding-top:120px;
+}
+.row2Box1 li.row2Text{
+    padding-bottom:100px;
+    color:#2c2c2c;
+}
+.row2Box1 li span{
+    color:#ff0000;
+}
+
+
+/*mainRow3시작*/
+.mainRow3{
+    position:relative;
+}
+
+.row3Box1_1{
+    font-size:0;
+}
+.row3Box1_1 li{
+    float:left;
+    margin-right:5px;
+    margin-bottom:5px;
+}
+.row3Box1_1 li a{
+    height:100%;
+    display:block;
+}
+.row3Box1_1 li a img{
+    display:block;
+}
+
+.row3Box1_2{
+    margin-bottom:150px;
+}
+.row3Box1_2 li{
+    float:left;
+    margin-right:5px;
+}
+.row3Box1_2 li a{
+    width:100%;
+    display:block;  
+}
+.row3Box1_2 li a span{
+    width:164px;
+    height:141px;
+    border:1px solid #ff0000;
+    color:#ff0000;
+    font-size:20px;
+    font-weight:300;
+    display:block;
+    text-align:center;
+    line-height:141px;
+}
+.row3Box1_2 li a img{
+    display:block;
+}
+
+.row3Box2{
+    text-align:right;
+    font-size:18px;
+    position:absolute;
+    right:0;
+    top:-15px;
+}
+.row3Box2 h3{
+    font-size:40px;
+    font-weight:500;
+}
+.row3Box2 p{
+    font-size:22px;
+    margin-bottom:120px;
+    position:relative;
+}
+.row3Box2 p:after{
+    content:"";
+    display:block;
+    width:33px;
+    height:2px;
+    background:#7d7d7d;
+    position:absolute;
+    right:0;
+    top:130px;
+}
+
+.row3Box2Text{
+    float:right;
+}
+.row3Box2Text li{
+    line-height:35px;
+}
+.row3Box2Text li:hover a{
+    font-weight:500;
+    color:#cc2a1e;
+}
+.row3Box2Text li a{
+    color:#2c2c2c;
+    display:block;
+}
+
+.row3Box3{}
+.row3Box3 a{
+    display:block;
+}
+.row3Box3 a img{
+    display:block;
+}
+
+/*mainRow4시작*/
+.mainRow4{
+    padding:60px 0;
+}
+
+.row4Box1{
+    float:left;
+    background:url(../../../images/yesOrNo/mainRow4_img01.png) no-repeat;
+    width:638px;
+    height:240px;
+    text-align:center;
+    color:#fff;
+    font-weight:200;
+    font-size:25px;
+    line-height:30px;
+    padding-top:105px;
+}
+.row4Box1 li{}
+.row4Box1 li a{
+    color:#fff;
+}
+.row4Box1 li a span{
+    width:280px;
+    height:45px;
+    line-height:45px;
+    display:block;
+    border:1px solid #fff;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.row4Box2{
+    float:right;
+    background:url(../../../images/yesOrNo/mainRow4_img02.png) no-repeat;
+    width:638px;
+    height:240px;
+    text-align:center;
+    color:#fff;
+    font-weight:200;
+    font-size:25px;
+    line-height:30px;
+    padding-top:105px;
+}
+.row4Box2 li{}
+.row4Box2 li a{
+    color:#fff;
+}
+.row4Box2 li a span{
+    width:280px;
+    height:45px;
+    line-height:45px;
+    display:block;
+    border:1px solid #fff;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
